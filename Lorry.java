@@ -1,34 +1,33 @@
-public class Lorry extends GroundTransportation {
 
-    private int numberOfPallets;
-    private int trailers;
+/**
+ * Escreva uma descrição da classe Lorry aqui.
+ * 
+ * @author (seu nome) 
+ * @version (um número da versão ou uma data)
+ */
+public class Lorry
+{
+    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
+    private int x;
 
-    public Lorry(String licensePlate, int numberOfPallets, int trailers) {
-        super(licensePlate);
-        this.numberOfPallets = numberOfPallets;
-        this.trailers = trailers;
+    /**
+     * Construtor para objetos da classe Lorry
+     */
+    public Lorry()
+    {
+        // inicializa variáveis de instância
+        x = 0;
     }
 
-    public int getNumberOfPallets() {
-        return numberOfPallets;
-    }
-
-    public void setNumberOfPallets(int numberOfPallets) {
-        this.numberOfPallets = numberOfPallets;
-    }
-
-    public int getTrailers() {
-        return trailers;
-    }
-
-    public void setTrailers(int trailers) {
-        this.trailers = trailers;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString() + "\n" +
-                "Número de Paletes: " + numberOfPallets + "\n" +
-                "Número de Atrelados: " + trailers;
+    /**
+     * Um exemplo de um método - substitua este comentário pelo seu próprio
+     * 
+     * @param  y   um exemplo de um parâmetro de método
+     * @return     a soma de x e y 
+     */
+    public int sampleMethod(int y)
+    {
+        // escreva seu código aqui
+        return x + y;
     }
 }
